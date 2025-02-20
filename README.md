@@ -53,7 +53,6 @@ A responsive weather application that provides real-time weather information for
 ## API Documentation
 
 This application uses the OpenWeatherMap API.  You will need an API key to use this app. 
-Get your API key from [https://openweathermap.org/](https://openweathermap.org/).
 
 ### Endpoints
 
