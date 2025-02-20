@@ -1,38 +1,151 @@
-.App {
+body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  /* background: linear-gradient(to bottom, #4a569d, #2a336f);  */
+  background-image: url(Weather/omg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  border-radius: 20px;
+}
+
+.location-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.temperature {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.temperature h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.temp-range {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+}
+
+.detail-item img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.forecast-container {
+  overflow-x: auto;
+}
+
+.hourly-forecast {
+  display: flex;
+}
+
+.forecast-item {
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: transparent;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-content {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.right-links {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right-links a {
+  margin-left: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.right-links a:hover {
+  color: #0afae6;
+}
+
+.left-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.left-links a:hover {
+  color: #007bff;
+}
+
+footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: -40px;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
 }
