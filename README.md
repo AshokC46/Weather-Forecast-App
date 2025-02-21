@@ -48,6 +48,7 @@ A responsive weather application that provides real-time weather information for
 
 ## Screenshots
 
+![Uploading screencapture-localhost-3000-2025-02-20-16_57_17.png…]()
 
 
 ## API Documentation
