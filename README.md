@@ -52,11 +52,5 @@ A responsive weather application that provides real-time weather information for
 
 ![screencapture-localhost-3000-2025-02-20-16_57_17](https://github.com/user-attachments/assets/de4a82b5-da22-4900-ba45-4a5189077fe5)
 
-## API Documentation
 
-This application uses the OpenWeatherMap API.  You will need an API key to use this app. 
-
-### Endpoints
-
-*   Current Weather: `GET /weather?q={city_name}&appid={API_KEY}`
-*   5-Day Forecast: `GET /forecast?q={city_name}&appid={API_KEY}`
+⭐ If you like this project, give it a star 🚀
